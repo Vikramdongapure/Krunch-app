@@ -1,0 +1,687 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+/* ************fetching data from server side ******** */
+/* .card{
+    
+    display: flex;
+    border: 1px solid indianred;
+    margin: 10px 10px;
+}
+
+.card img{
+    display: inline-block;
+    
+} */
+
+/* ******************************************************************* */
+/* #main{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(67, 39, 99);
+    color: aliceblue;
+}
+
+#main article{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin: 0 auto;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    width:500px ;
+    font-size: larger;
+    /* color: #5f3535; */
+
+/* }
+
+#menu ul li{
+    list-style-type: none;
+}
+#menu ul li:hover{
+    color: rgb(200, 214, 197);
+    transform: scale(1.3);
+    transition: 0.5s ease-out;
+} */ 
+
+/* .grand{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.mutya{
+    background-color: rebeccapurple;
+    padding: 20px;
+}
+.maga{
+    background-color: rgb(78, 75, 70);
+    padding: 20px;
+}
+
+.mommaga{
+    background-color: rgb(228, 137, 18);
+    padding: 20px;
+}  */
+/* ****************************************************** */
+
+/* css on States######################## */
+
+/* .cards{
+    height: 400px;
+    width: 40%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+#img{
+    height: 250px ;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px auto;
+}
+
+#img img{
+    height: 100%;
+    width: 100%;
+} */
+
+
+/* ****************KRUNCH APP**************************************************************** */
+
+ #main{
+    height: 85px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.9);
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    color: white;
+    font-size: large;
+    
+}
+
+#main article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 95px;
+    margin: 0 auto;
+    
+}
+
+#menu1 ul{
+    width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+
+#menu1 ul li{
+    list-style-type: none;
+    color: #fff;
+    font-size: large;
+}
+/* *****************CSS ON HOME ******************* */
+#Home1{
+    width:100%;
+    margin-bottom: 40px;
+  }
+.Homeimg{
+    overflow: hidden;
+   }
+.Homeimg img{
+    width: 100%;
+    height: 105vh;
+    transform: scaleX(1.6);
+ }
+
+.Hcontent{
+    text-align: center;
+    width: 1000px;
+    margin: 0px auto;
+    color: #ffffff;
+    position: absolute;
+    right: 180px;
+    top: 250px;
+
+}
+.Hcontent h1{
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Hcontent section{
+    margin-bottom: 60px;
+}
+.Hcontent p{
+    font-size: 20px;
+    line-height:20px;
+}
+
+.Buttonflex button{
+    margin: 0px 10px ;
+    padding: 15px 30px;
+    border-radius: 7px;
+    border: none;
+    
+}
+.Buttonflex :hover{
+    background-color: #373940;
+    color: white;
+    opacity: 100%;
+}
+.Buttonflex a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.Buttonflex .button2{
+    background-color: transparent;
+    border: 1px solid #2374ff;
+
+}
+.Buttonflex .button2:hover{
+    background-color: #2374ff;
+}
+
+/* **********************CSS ON ABOUT*************** */
+.section-header{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 80px;
+
+}
+
+.text-large{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Nunito, sans-serif;
+}
+.line-border{
+    display: block;
+    margin-right:auto ;
+    margin-left: auto;
+    margin-top: 20px;
+    height: 2px;
+    width: 70px;
+    background-color: rgb(114, 114, 216);
+}
+
+
+.wrapper{
+    display: block;
+    width: 76rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.v-align{
+    align-self: center;
+    height: 198px;
+    
+}
+.width-2-1{
+    max-width: 50%;
+    opacity: 80%;
+    /* height: 198px; */
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0px;
+}
+
+.width-1-2{
+    max-width: 50%;
+ 
+    flex-basis: 50%;
+    text-align: center;
+} 
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ***************CSS ON PORFOLIO*************** */
+
+.flexport1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.flexport2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.flexport img{
+    width: 337px;
+}
+
+.portbutton{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    opacity: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.portbutton a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(41, 35, 35);
+    opacity: 100%;
+    font-weight: 600;
+}
+
+.portbutton button{
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-top: 30px; 
+    cursor: pointer;
+}
+
+
+.portbutton button:hover{
+background-color: #2374ff;
+transition: 430ms ease-in-out;
+}
+
+/* *****************css on TESTIMENIOLS***************8 */
+.Testime{
+    min-height: 450px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c30503617cac9b64365d2e_testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position: 0px 0px, 50% 50%;
+    margin-top: 80px;
+}
+
+.section-header4{
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.line-border1{
+    display: block;
+    margin-right:auto ;
+    margin-left: auto;
+    margin-top: 20px;
+    height: 2px;
+    width: 70px;
+    background-color: rgb(248, 248, 255);
+}
+
+.text-large1{
+    font-style: italic;
+    font-size: 20px;
+    
+    line-height: 30px;
+    padding-top: 40px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name1{
+    color: #2374ff;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.round{
+    text-align: center;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.round1{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-color: rgba(255,255,255,0.4);
+    margin: 16px 3px 0.5em;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+/* ********************CSS ON SERVICES***************** */
+
+.services{
+    width: 85%;
+    margin: 0px auto 48px;
+}
+.grid5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid5>.block{
+    width: 350px;
+    margin: 15px 0px;
+}
+.icon>i{
+    color: #4d8cf5;
+    font-size: 35px;
+}
+.block h3{
+    font-weight: 640;
+}
+.block p{
+    opacity: 75%;
+}
+
+/* ****************CSS ON TEAM************ */
+
+.grid6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid6 .block-1{
+      max-width: 270px;
+      text-align: center;
+}
+h4{
+    margin-top: 10px;
+    opacity: 75%;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.div-name{
+    opacity: 75%;
+    font-size: 16px;
+}
+/* *****************Team Video*************** */
+
+.video-img{
+    min-height: 450px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c31c59f69ff41454c71140_video.jpg");
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position: 0px 0px, 50% 50%;
+    text-align: center;
+}
+
+.video-icon{
+    width: 82px;
+    text-align: center;
+   padding-top: 100px;
+    margin-left: 630px;
+    
+}
+.text-2{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    font-style: italic;
+    font-size: x-large;
+    line-height: 1.3;
+}
+.video-button {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.video-button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(235, 224, 224);
+    opacity: 100%;
+    font-weight: 600;
+    
+}
+.video-button button{
+
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #2374ff;
+    border-radius: 5px;
+}
+.video-button button:hover{
+    background-color: #2374ff;
+}
+
+
+/* /* *******************CSS ON BLOG&&&&&&&&&&&&&&&&&&&&&&&& */
+.blog-1{
+    
+    display: flex;
+    flex-wrap: wrap; 
+}
+.blog-2{
+    padding: 15px;
+    max-width: 33.33%;
+}
+img{
+    display: inline-block;
+    border: 0px;
+    max-width: 100%;
+    vertical-align: middle;
+
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+.blog-3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #999;
+    font-size: 14px;
+    line-height: 1;
+    font-style: italic;
+    font-weight: 600;
+
+}
+p{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #5c5c5c;
+}
+.blog-4{
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #4d8cf5;
+}
+.blog-5{
+    text-align: center;
+    width: 100%;
+}
+.blog-5 button{
+     background-color: #ffffff;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blog-5 button a{
+    font-size: 14px;
+    color: black;
+    opacity: 75%;
+    font-weight: 600;
+    text-decoration: none;
+
+    
+}
+.blog-5 button:hover{
+    background-color:rgb(27,27, 211);
+    transition: 430ms ease-in-out;
+    color: white;
+    opacity: 100%;
+}
+/* ************************CSS ON CONTACT ************* */
+.form2{
+    text-align: center;
+}
+.form1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left:180px;
+}
+.form-1{
+    max-width: 50%;
+    margin-left: 20px;
+    
+}
+.form-1-2{
+    padding: 15px;
+    
+}
+.form-1-2-1{
+    margin-left: 120px;
+}
+.form-input{
+    height: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.w-input{
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.form-2-1{
+    width: 800px;
+
+}
+.text-area{
+    height: 200px;
+    overflow: auto;
+    margin: 0px;
+    font: inherit;
+}
+
+.form-button{
+    margin-top: 40px;
+    
+}
+.form-button button{
+    background-color: #2374ff;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.form-button button:hover{
+    background-color: #333;
+}
+/* ************css on footer and lasnav bar**************** */
+
+#Lastnav{
+    height: 75px;
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+.Mlinks{
+    width: 365px;
+    margin: 0px auto;
+}
+
+.Mlinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.Mlinks ul a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 550;
+}
+.Mlinks ul a:hover{
+    color: #0f5ce2;
+    transition: 430ms ease-in-out;
+
+}
+.copyRight{
+  margin-top: 10px;
+  font-size: 13px;
+  /* color: #ffffff; */
+  opacity: 80%;
+}
+.copyRight strong{
+    color: #2374ff;
+    opacity: 80%;
+    font-size: 13px;
+}
